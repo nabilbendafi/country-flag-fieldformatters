@@ -1,7 +1,7 @@
 # Country flag FieldFormat Plugin for Kibana 5 
 
 ### About
-This is a plugin for Kibana5+. Has been developed and tested on Kibana 5.2.0 version. The plugin uses [flag-icon-css](https://github.com/lipis/flag-icon-css)
+This is a plugin for Kibana 5+. Has been developed and tested on Kibana 5.2.0 version. The plugin uses [flag-icon-css](https://github.com/lipis/flag-icon-css)
 
 ![Screenshot](images/country.jpg)
 
@@ -15,16 +15,20 @@ $ npm install
 ```
 or 
 ```
-$ bin/kibana plugin --install nabilbendafi/country-flag-fieldformatters
+$ bin/kibana-plugin install https://github.com/nabilbendafi/country-flag-fieldformatters/releases/download/v5.2.0/country-flag-fieldformatters-5.2.0.zip
 ```
 
 Unistall:
 ```
-$ bin/kibana plugin --remove country-flag-fieldformatters
+$ bin/kibana-plugin remove country-flag-fieldformatters
 ```
 
+### Configure
+Under _Management_ > _Index Patterns_:
+ * update *Format* type to *Country Flag* for any <geoip_field>.country_code2
+
 ### Screenshots
-![Screenshot](images/country.jpg)
+![Screenshot](images/configuration.jpg)
 
 ### Contributions
 Anyone is welcome to contribute to my project. There are various ways you can contribute:
