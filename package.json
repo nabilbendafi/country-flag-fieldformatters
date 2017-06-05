@@ -1,0 +1,27 @@
+{
+  "name": "country-flag-fieldformatters",
+  "version": "5.2.0",
+  "description": "Field formatters plugin for Kibana that display country flag based on its 'ISO 3166-1 alpha-2' code.",
+  "url" : "https://github.com/nabilbendafi/country-flag-fieldformatters/issues",
+  "author": "Nabil Bendafi <nabil@bendafi.fr>",
+  "scripts": {
+    "start": "plugin-helpers start",
+    "test:server": "plugin-helpers test:server",
+    "test:browser": "plugin-helpers test:browser",
+    "build": "plugin-helpers build"
+  },
+  "dependencies": {
+    "flag-icon-css": "2.8.0"
+  },
+  "devDependencies": {
+    "@elastic/eslint-config-kibana": "0.0.2",
+    "@elastic/plugin-helpers": "^6.0.0",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "bluebird": "^3.1.5",
+    "eslint": "^1.10.3",
+    "eslint-plugin-mocha": "^1.1.0",
+    "lodash": "^4.0.1"
+  }
+}
