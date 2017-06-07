@@ -3,7 +3,7 @@
 ### About
 This is a plugin for Kibana 5+. Has been developed and tested on Kibana 5.2.0 version. The plugin uses [flag-icon-css](https://github.com/lipis/flag-icon-css)
 
-![Screenshot](images/country.jpg)
+![Screenshot](https://raw.githubusercontent.com/nabilbendafi/country-flag-fieldformatters/master/images/country.jpg)
 
 ### Usage
 Installation steps:
@@ -28,7 +28,7 @@ Under _Management_ > _Index Patterns_:
  * update *Format* type to *Country Flag* for any <geoip_field>.country_code2
 
 ### Screenshots
-![Screenshot](images/configuration.jpg)
+![Screenshot](https://raw.githubusercontent.com/nabilbendafi/country-flag-fieldformatters/master/images/configuration.jpg)
 
 ### Contributions
 Anyone is welcome to contribute to my project. There are various ways you can contribute:
