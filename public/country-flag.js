@@ -1,7 +1,10 @@
+import { IndexPatternsFieldFormatProvider } from 'ui/index_patterns/_field_format/field_format';
+import { RegistryFieldFormatsProvider } from 'ui/registry/field_formats';
+
 function CountryFlagProvider(Private) {
 
   var _ = require('lodash');
-  var FieldFormat = Private(require('ui/index_patterns/_field_format/field_format'));
+  var FieldFormat = Private(IndexPatternsFieldFormatProvider);
 
   // Include CSS file from [flag-icon-css](https://www.npmjs.com/package/flag-icon-css)
   require('flag-icon-css/css/flag-icon.css');
@@ -53,4 +56,4 @@ function CountryFlagProvider(Private) {
 }
 
 // Register the provider to the field_formats registry
-require('ui/registry/field_formats').register(CountryFlagProvider);
+RegistryFieldFormatsProvider.register(CountryFlagProvider);
