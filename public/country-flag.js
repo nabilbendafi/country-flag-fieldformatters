@@ -1,18 +1,18 @@
-import { IndexPatternsFieldFormatProvider } from 'ui/index_patterns/_field_format/field_format';
-import { RegistryFieldFormatsProvider } from 'ui/registry/field_formats';
+import _ from 'lodash';
+
+import { FieldFormat } from '../../../src/ui/field_formats/field_format';
+import { fieldFormats } from 'ui/registry/field_formats';
 
 function CountryFlagProvider(Private) {
-
-  var _ = require('lodash');
-  var FieldFormat = Private(IndexPatternsFieldFormatProvider);
 
   // Include CSS file from [flag-icon-css](https://www.npmjs.com/package/flag-icon-css)
   require('flag-icon-css/css/flag-icon.css');
 
   // Create a new FieldFormat type and inherit FieldFormat
-  _.class(CountryFlag).inherits(FieldFormat);
-  function CountryFlag(params) {
-    CountryFlag.Super.call(this, params);
+  class CountryFlag extends FieldFormat {
+    constructor(params) {
+      super(params);
+    }
   }
 
   // The id of this field format
@@ -27,6 +27,7 @@ function CountryFlagProvider(Private) {
   // conflict (fields that have different types in different indices matched by the index pattern)
   CountryFlag.fieldType = [
     'string',
+    'unknown'
   ];
 
   /*
@@ -42,6 +43,7 @@ function CountryFlagProvider(Private) {
       This can also be undefined, e.g. when formatting the field in a visualization due to the aggregation
       this information is lost.
   */
+
   CountryFlag.prototype._convert = {
     text: function (value) {
       return value;
@@ -56,4 +58,4 @@ function CountryFlagProvider(Private) {
 }
 
 // Register the provider to the field_formats registry
-RegistryFieldFormatsProvider.register(CountryFlagProvider);
+fieldFormats.register(CountryFlagProvider);
