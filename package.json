@@ -1,11 +1,11 @@
 {
   "name": "country-flag-fieldformatters",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Field formatters plugin for Kibana that display country flag based on its 'ISO 3166-1 alpha-2' code.",
   "url": "https://github.com/nabilbendafi/country-flag-fieldformatters/issues",
   "author": "Nabil Bendafi <nabil@bendafi.fr>",
   "kibana": {
-    "version": "6.6.0"
+    "version": "6.8.2"
   },
   "scripts": {
     "start": "plugin-helpers start",
