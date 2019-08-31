@@ -19,7 +19,7 @@ $ npm install
 ```
 or
 ```
-$ bin/kibana-plugin install https://github.com/nabilbendafi/country-flag-fieldformatters/releases/download/v1.2.2/country-flag-fieldformatters-1.2.2.zip
+$ bin/kibana-plugin install https://github.com/nabilbendafi/country-flag-fieldformatters/releases/download/v1.3.0/country-flag-fieldformatters-1.3.0.zip
 ```
 
 Unistall:
