@@ -1,10 +1,11 @@
-# Country flag FieldFormat Plugin for Kibana 6
+# Country flag FieldFormat Plugin for Kibana 7
 
 ### About
-This is a plugin for Kibana 6+. Has been developed and tested on Kibana 6.6.0/6.8.2 version. The plugin uses [flag-icon-css](https://github.com/lipis/flag-icon-css)
+This is a plugin for Kibana 7+. Has been developed and tested on Kibana 7.3.0 version. The plugin uses [flag-icon-css](https://github.com/lipis/flag-icon-css)
 
 Older version:
- [5.x](https://github.com/nabilbendafi/country-flag-fieldformatters/tree/5.x)
+ - [6.x](https://github.com/nabilbendafi/country-flag-fieldformatters/tree/6.x)
+ - [5.x](https://github.com/nabilbendafi/country-flag-fieldformatters/tree/5.x)
 
 ![Screenshot](https://raw.githubusercontent.com/nabilbendafi/country-flag-fieldformatters/master/images/country.jpg)
 

@@ -5,7 +5,7 @@
   "url": "https://github.com/nabilbendafi/country-flag-fieldformatters/issues",
   "author": "Nabil Bendafi <nabil@bendafi.fr>",
   "kibana": {
-    "version": "6.8.2"
+    "version": "7.3.0"
   },
   "scripts": {
     "start": "plugin-helpers start",
