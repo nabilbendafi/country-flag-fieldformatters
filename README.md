@@ -39,3 +39,7 @@ Anyone is welcome to contribute to my project. There are various ways you can co
 1. Open an [Issue](https://github.com/nabilbendafi/country-flag-fieldformatters/issues) on GitHub
 2. Send me a Pull Request with your bug fixes and/or new features
 3. Contact via email: **nabil@bendafi.fr**
+
+### Donate
+Feel free to support this project
+<a href="https://www.buymeacoffee.com/bBxq5vkoE" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
