@@ -12,12 +12,16 @@ Older version:
 ### Usage
 Installation steps:
 ```
-$ cd KIBANA_HOME/plugins
-$ git clone https://github.com/nabilbendafi/country-flag-fieldformatters.git country-flag-fieldformatters
-$ cd country-flag-fieldformatters
-$ npm install
+$ git clone -b v7.6.2 https://github.com/elastic/kibana
+$ cd kibana
+$ git clone https://github.com/nabilbendafi/country-flag-fieldformatters.git plugins/country-flag-fieldformatters
+$ cd plugins/country-flag-fieldformatters
+$ yarn kbn bootstrap
+$ yarn build
 ```
-or
+This will provide a `build/country-flag-fieldformatters-X.X.X.zip` ready to be installed
+
+or install released plugin from Github.
 ```
 $ bin/kibana-plugin install https://github.com/nabilbendafi/country-flag-fieldformatters/releases/download/v1.3.0/country-flag-fieldformatters-1.3.0.zip
 ```

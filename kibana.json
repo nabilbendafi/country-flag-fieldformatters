@@ -1,0 +1,10 @@
+{
+  "id": "countryFlag",
+  "version": "7.6.2",
+  "server": false,
+  "ui": true,
+  "requiredPlugins": [
+    "data"
+  ],
+  "optionalPlugins": []
+}
